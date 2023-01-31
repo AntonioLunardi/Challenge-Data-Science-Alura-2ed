@@ -1,7 +1,7 @@
 # Challenge de Data Science | 2ª edição
 
 <div align="center">
-<img src="https://i.imgur.com/Tnj84r9.jpg" width="800px" />#vitrinedev
+<img src="https://i.imgur.com/Tnj84r9.jpg#vitrinedev" width="800px" />
 </div>
 
 A imobiliária InsightPlaces, situada na cidade do Rio de Janeiro, está enfrentando dificuldades para alugar e vender imóveis. Em uma pesquisa de como empresas semelhantes operam no mercado, a InsightPlaces percebeu que esse problema pode estar relacionado aos valores dos imóveis e às recomendações realizadas em seu site. 
