@@ -33,12 +33,10 @@ Utilizaram-se os recursos do PySpark para explorar a base de dados, realizar tra
 
 Tratamento dos dados e a criação de modelos de regressão para precificação dos imóveis:
 
-Importação dos dados que foram salvos no final da semana anterior e realização da exploração, do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura.
+Foi feita a importação dos dados que foram salvos no final da semana anterior, realização da exploração, do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura.
 
-## Semana 3 e 4
+## Semanas 3 e 4
 
-Melhoramento do sistema de recomendação da InsightPlaces:
+Melhoramento do sistema de recomendação:
 
-O sistema não está recebendo os clicks que esperava apenas recomendando imóveis das mesmas regiões e na mesma faixa de preço. O objetivo é criar um sistema de recomendação de imóveis baseado em similaridade de características. A base de dados utilizada será a base de dados tratada na semana 2, após transformar as variáveis categóricas serem transformadas em variáveis binárias e antes de ser aplicada a vetorização.
-
-Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar clústeres e uma função que seja responsável pela recomendação dos melhores imóveis.
+A base de dados utilizada foi a preparada surante semana 2, após transformar as variáveis categórica em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar clústeres e uma função capaz de realizar uma melhor recomendação dos imóveis.
