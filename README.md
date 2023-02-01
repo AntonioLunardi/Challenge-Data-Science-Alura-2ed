@@ -18,7 +18,7 @@ A imobiliária InsightPlaces, situada na cidade do Rio de Janeiro, está enfrent
 
 São as etapas deste projeto: 
 - Ler e fazer o tratamento do histórico dos preços de imóveis no Rio de Janeiro
-- Construir um modelo de regressão para precificar imóveis e
+- Construir um modelo de regressão para precificar imóveis
 - Criar um recomendador de imóveis. 
  
 Para cada uma dessas etapas, é utilizada a ferramenta PySpark, que oferece uma melhor performance ao trabalhar-se com grandes volumes de dados.
