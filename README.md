@@ -1,5 +1,11 @@
 # Challenge de Data Science | 2ª edição
 
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Challenge-Data-Science-Alura-2ed**
+| :label: Tecnologias | PySpark, spark-mllib, spark-sql, pandas, Python
+| :fire: Desafio     | [Página do desafio](https://www.alura.com.br/challenges/data-science-2?utm_source=ActiveCampaign&utm_medium=email&utm_content=%5BChallenge+Data+Science%5D+Um+novo+projeto+de+DS+para+seu+portf%C3%B3lio+%F0%9F%A4%A9&utm_campaign=%5BChallenges%5D+%28Dados+2a+ed+%29+Divulga%C3%A7%C3%A3o+para+base+de+alunos&vgo_ee=uW58UIGWuy1MfM%2BLWXlW8GQOP8ZXmRzMvz3Yw%2BcA7gI%3D)
+
 <div align="center">
 <img src="https://i.imgur.com/Tnj84r9.jpg#vitrinedev" width="800px" />
 </div>
