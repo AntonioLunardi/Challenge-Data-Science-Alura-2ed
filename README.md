@@ -11,14 +11,14 @@ O trabalho tem por fim reformular os sistemas de recomendação e venda de imóv
 <img src="https://i.imgur.com/Tnj84r9.jpg#vitrinedev" width="800px" />
 </div>
 
-O desafio teve duração de quatro semanas de encontros e metas a serem cumpridas utilizando metologia ágil. 
-Consistiu de um caso simulado de uma imobiliária fictícia:
+O desafio teve duração de quatro semanas de encontros e metas a serem cumpridas. Foi realizado utilizando metologia ágil. 
+Consistiu de um caso simulado:
 
 A imobiliária InsightPlaces, situada na cidade do Rio de Janeiro, está enfrentando dificuldades para alugar e vender imóveis. Em uma pesquisa de como empresas semelhantes operam no mercado, a InsightPlaces percebeu que esse problema pode estar relacionado aos valores dos imóveis e às recomendações realizadas em seu site. Dentro desse contexto, é preciso definir de forma eficiente os preços dos imóveis lidando com grandes volumes de dados.
 
 São as etapas deste projeto: 
-- Ler e fazer o tratamento do histórico dos preços de imóveis no Rio de Janeiro
-- Construir um modelo de regressão para precificar imóveis
+- Ler e fazer o tratamento do histórico dos preços de imóveis no Rio de Janeiro.
+- Construir um modelo de regressão para precificar imóveis.
 - Criar um recomendador de imóveis. 
  
 Para cada uma dessas etapas, é utilizada a ferramenta PySpark, que oferece uma melhor performance ao trabalhar-se com grandes volumes de dados.
@@ -33,10 +33,10 @@ Utilizaram-se os recursos do PySpark para explorar a base de dados, realizar tra
 
 Tratamento dos dados e a criação de modelos de regressão para precificação dos imóveis:
 
-Foi feita a importação dos dados que foram salvos no final da semana anterior, realização da exploração, do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura.
+Foi feita a importação dos dados que foram salvos no final da semana anterior, realização da exploração e do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura.
 
 ## Semanas 3 e 4
 
 Melhoramento do sistema de recomendação:
 
-A base de dados utilizada foi a preparada surante semana 2, após transformar as variáveis categórica em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar clústeres e uma função capaz de realizar uma melhor recomendação dos imóveis.
+A base de dados utilizada foi a preparada surante semana 2, após transformar as variáveis categóricas em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar clústeres adequados e uma função capaz de realizar uma boa recomendação dos imóveis.
