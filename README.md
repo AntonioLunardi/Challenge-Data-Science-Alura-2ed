@@ -1,5 +1,5 @@
 # Challenge de Data Science | 2ª edição
-O trabalho tem por fim reformular os sistemas de recomendação e venda de imóveis da imobiliária InsightPlaces, tornando-os mais eficientes. Utilizando tecnologia Apache PySpark, inicialmente é feito um trabalho de engenharia de dados para tratamento do dataset. Posteriormente são criados modelos de machine learning de regressão e clusterização/recomendação.
+O trabalho tem por fim reformular os sistemas de recomendação e venda de imóveis da imobiliária InsightPlaces, tornando-os mais eficientes. Utilizando tecnologia Apache PySpark, inicialmente é feito um trabalho de engenharia de dados para tratamento do data set. Posteriormente são criados modelos de machine learning de regressão e clusterização/recomendação.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
