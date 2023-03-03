@@ -39,4 +39,4 @@ Foi feita a importação dos dados que foram salvos no final da semana anterior,
 
 Melhoramento do sistema de recomendação:
 
-A base de dados utilizada foi a preparada surante semana 2, após transformar as variáveis categóricas em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar clústeres adequados e uma função capaz de realizar uma boa recomendação dos imóveis.
+A base de dados utilizada foi a preparada durante semana 2, após transformar as variáveis categóricas em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar agrupamentos (clusters) adequados e uma função capaz de realizar uma boa recomendação dos imóveis.
