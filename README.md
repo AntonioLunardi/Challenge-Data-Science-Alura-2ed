@@ -1,5 +1,5 @@
 # Challenge de Data Science | 2ª edição
-O trabalho tem por fim reformular os sistemas de recomendação e venda de imóveis da imobiliária InsightPlaces, tornando-os mais eficientes. Utilizando tecnologia Apache PySpark, inicialmente é feito um trabalho de engenharia de dados para tratamento do data set. Posteriormente são criados modelos de machine learning de regressão e clusterização/recomendação.
+O trabalho tem por fim reformular os sistemas de recomendação e venda de imóveis da imobiliária InsightPlaces, tornando-os mais eficientes. Utilizando tecnologia Apache PySpark, inicialmente é feito um trabalho de engenharia de dados para tratamento do data set. Posteriormente são criados modelos estatísticos de regressão e modelos de aprendizado de máquina de redução de dimensionalidade, agrupamento (clusterização) e recomendação.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
@@ -33,10 +33,10 @@ Utilizaram-se os recursos do PySpark para explorar a base de dados, realizar tra
 
 Tratamento dos dados e a criação de modelos de regressão para precificação dos imóveis:
 
-Foi feita a importação dos dados que foram salvos no final da semana anterior, realização da exploração e do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura.
+Foi feita a importação dos dados que foram salvos no final da semana anterior, realização da exploração e do tratamento e da remoção de dados faltantes. Após esses tratamentos, prepararam-se os dados para a criação de modelos de machine learning do PySpark. Salvaram-se os dados já preparados para ML no formato parquet para utilização futura. Foram nesta etapa criados os modelos estatísticos de regressão, capazes de predizer preços de imóveis baseados nas suas caracteríticas.
 
 ## Semanas 3 e 4
 
 Melhoramento do sistema de recomendação:
 
-A base de dados utilizada foi a preparada durante semana 2, após transformar as variáveis categóricas em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Foi possível criar agrupamentos (clusters) adequados e uma função capaz de realizar uma boa recomendação dos imóveis.
+A base de dados utilizada foi a preparada durante semana 2, após transformar as variáveis categóricas em variáveis binárias e antes de ser aplicada a vetorização. Utilizaram-se técnicas de padronização e redução de dimensionalidade nos dados. Após, reduzi-se a dimensionalidade dos conjuntos de treinamento e validação, foi possível criar agrupamentos (clusters) adequados e uma função capaz de realizar uma boa recomendação dos imóveis.
